@@ -44,7 +44,7 @@
         {
           "id": "17bca35c-8243-4b95-9306-809adbe02d25",
           "type": "text",
-          "title": "Name of Your City?",
+          "title": "Which city are you born?",
           "isRequired": false
         },
         {
@@ -79,6 +79,64 @@
         }
       ],
       "id": 2
+    },
+    {
+      "title": "Intern",
+      "description": "Internship for laravel, react and shopify",
+      "elements": [
+        {
+          "id": "37b332fc-9fb8-4957-894a-21056cb4063b",
+          "type": "rating",
+          "title": "How do you feel in our company, Please give the rating?",
+          "isRequired": true,
+          "rateValues": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "ba459e6a-849e-4383-a6e3-9079a7a70ed2",
+          "type": "dropdown",
+          "title": "Please, rate how valuable our training. ",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Bad",
+              "text": "Bad"
+            },
+            {
+              "value": "Good",
+              "text": "Good"
+            },
+            {
+              "value": "Very Good",
+              "text": "Very Good"
+            },
+            {
+              "value": "Best",
+              "text": "Best"
+            }
+          ]
+        },
+        {
+          "id": "1ea3cdaa-f60f-4ddc-aeb7-08a1bd28da0f",
+          "type": "boolean",
+          "title": "Do you feel affected by the recent changes in the office?",
+          "isRequired": true,
+          "labelTrue": "Yes",
+          "labelFalse": "No"
+        },
+        {
+          "id": "af091c04-8204-475b-b4d2-3203ba320a09",
+          "type": "comment",
+          "title": "Please give the feedback or suggestion to us?",
+          "isRequired": true
+        }
+      ],
+      "id": 3
     }
   ],
   "formans": [
